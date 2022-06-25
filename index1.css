@@ -1,0 +1,158 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Jun, 2022, 12:58:44 PM
+    Author     : riddhi
+*/
+#wrap {
+    background: #fff;
+    width: 1300px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+/* this is the header container */
+#header {
+    margin-right: 20px;
+    margin-top: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: rgba(237, 145, 33, 1);
+    border-bottom: 1px dotted #000;
+    min-height: 90px;
+    width: 1300px;
+}
+/* this is the logo container */
+#logo{
+    margin-left: 30px;
+    padding-top: 15px;
+}
+
+.input-field
+{
+    color: white;
+    width: 100%;
+    padding:10px 10px;
+    margin:5px 0;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background: transparent;
+}
+
+.clear{
+    clear: both;
+}
+/* this is the footer part */
+#footer{
+    background: rgba(96,123,139, 1);
+    color: #fff;
+    padding: 10px;
+    width: 1280px;
+}
+
+pg-normal {
+    color: #000000;
+    font-size: 15px;
+    cursor: pointer;
+    background: #D0B389;
+    padding: 2px 4px 2px 4px;
+}
+
+.pg-selected {
+    color: #fff;
+    font-size: 15px;
+    background: #000000;
+    padding: 2px 4px 2px 4px;
+}
+
+table.yui {
+    font-family:arial;
+    border-collapse:collapse;
+    border: solid 3px #7f7f7f;
+    font-size:small;
+}
+
+table.yui td {
+    padding: 5px;
+    border-right: solid 1px #7f7f7f;
+}
+
+table.yui .even {
+    background-color: #EEE8AC;
+}
+
+table.yui .odd {
+    background-color: #F9FAD0;
+}
+
+table.yui th {
+    border: 1px solid #7f7f7f;
+    padding: 5px;
+    height: auto;
+    background: #D0B389;
+}
+
+table.yui th a {
+    text-decoration: none;
+    text-align: center;
+    padding-right: 20px;
+    font-weight:bold;
+    white-space:nowrap;
+}
+
+table.yui tfoot td {
+    border-top: 1px solid #7f7f7f;
+    background-color:#E1ECF9;
+}
+
+table.yui thead td {
+    vertical-align:middle;
+    background-color:#E1ECF9;
+    border:none;
+}
+
+table.yui thead .tableHeader {
+    font-size:larger;
+    font-weight:bold;
+}
+
+table.yui thead .filter {
+    text-align:right;
+}
+
+table.yui tfoot {
+    background-color:#E1ECF9;
+    text-align:center;
+}
+
+table.yui .tablesorterPager {
+    padding: 10px 0 10px 0;
+}
+
+table.yui .tablesorterPager span {
+    padding: 0 5px 0 5px;
+}
+
+table.yui .tablesorterPager input.prev {
+    width: auto;
+    margin-right: 10px;
+}
+
+table.yui .tablesorterPager input.next {
+    width: auto;
+    margin-left: 10px;
+}
+
+table.yui .pagedisplay {
+    font-size:10pt; 
+    width: 30px;
+    border: 0px;
+    background-color: #E1ECF9;
+    text-align:center;
+    vertical-align:top;
+}
